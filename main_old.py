@@ -3,7 +3,7 @@ __author__ = 'Pranjal Goswami, QMEL IITKGP, http://pranjalgoswami.in'
 from lib import *
 import numpy as np
 import matplotlib.pyplot as plt
-import aux
+import utils
 
 import matplotlib
 from matplotlib import cm
@@ -56,7 +56,7 @@ while(N <= 10000 and loop):
     N*=10
     loop = False
 
-aux.make_xyz(cube1)
+utils.make_xyz(cube1)
 
 print x
 print y

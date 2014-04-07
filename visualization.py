@@ -3,7 +3,7 @@ __author__ = 'Pranjal Goswami, QMEL IITKGP, http://pranjalgoswami.in'
 from lib import *
 import numpy as np
 import matplotlib.pyplot as plt
-import aux
+import utils
 import matplotlib
 
 n=15
@@ -17,4 +17,4 @@ for i in range(0,N):
         target = np.random.randint(0,n**3/2)
         cube1.swap(index,target)
 
-aux.make_xyz(cube1)
+utils.make_xyz(cube1)

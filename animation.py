@@ -3,7 +3,7 @@ __author__ = 'Pranjal Goswami, QMEL IITKGP, http://pranjalgoswami.in'
 from lib import *
 import numpy as np
 import matplotlib.pyplot as plt
-import aux
+import utils
 import matplotlib
 
 n=10
