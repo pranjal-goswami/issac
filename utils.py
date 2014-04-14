@@ -70,3 +70,10 @@ def layer_composition(cube):
                     layers[l]['b']+=1
 
     return layers
+
+def makeXYZFromCrystal(c,d):
+    print len(c.lattice)
+    print 'title'
+    for i in range(0,len(c.lattice)):
+        print d[c.lattice[i].Z]['Symbol'] +' '+str(c.lattice[i].x)\
+            +' '+str(c.lattice[i].y)+' '+str(c.lattice[i].z)

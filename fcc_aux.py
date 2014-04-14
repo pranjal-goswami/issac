@@ -10,19 +10,19 @@ def make_fcc_xyz(fcc1):
     for i in range(0,n):
         for j in range(0,n):
             for k in range(0,n):
-                atom = "Pt " if fcc1.cube[i][j][k]==5 else "Si "
+                atom = "Pt " if fcc1.cube[i][j][k]>50 else "Si "
                 print atom+str(i*fcc1.a)+" "+str(j*fcc1.a)+" "+str(k*fcc1.a)
 
     for i in range(0,n):
         for j in range(0,n-1):
             for k in range(0,n-1):
-                atom = "Pt " if fcc1.fcx[i][j][k]==5 else "Si "
+                atom = "Pt " if fcc1.fcx[i][j][k]>50 else "Si "
                 print atom+str(i*fcc1.a)+" "+str(j*fcc1.a + offset)+" "+str(k*fcc1.a + offset)
 
     for i in range(0,n-1):
         for j in range(0,n):
             for k in range(0,n-1):
-                atom = "Pt " if fcc1.fcy[i][j][k]==5 else "Si "
+                atom = "Pt " if fcc1.fcy[i][j][k]>50 else "Si "
                 print atom+str(i*fcc1.a + offset)+" "+str(j*fcc1.a)+" "+str(k*fcc1.a + offset)
 
     for i in range(0,n-1):

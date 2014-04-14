@@ -2,12 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="652c3940-054b-4977-989f-4d2b76a4c5b7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Nabplot.py" afterPath="$PROJECT_DIR$/Nabplot.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/animation.py" afterPath="$PROJECT_DIR$/animation.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.py" afterPath="$PROJECT_DIR$/main.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main_old.py" afterPath="$PROJECT_DIR$/main_old.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualization.py" afterPath="$PROJECT_DIR$/visualization.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/crystal.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/intermolecularpotential.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/latticePoint.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/__init__.py" afterPath="$PROJECT_DIR$/lib/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/fcc.py" afterPath="$PROJECT_DIR$/lib/fcc.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fcc_aux.py" afterPath="$PROJECT_DIR$/fcc_aux.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fcc_test.py" afterPath="$PROJECT_DIR$/fcc_test.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/issac.iml" afterPath="$PROJECT_DIR$/.idea/issac.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils.py" afterPath="$PROJECT_DIR$/utils.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="issac.iws" />
@@ -31,19 +35,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="errors.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/errors.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="0" selection-start="171" selection-end="171" vertical-scroll-proportion="0.0" vertical-offset="168" max-vertical-offset="420">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="fcc_aux.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/fcc_aux.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="93" selection-start="1182" selection-end="1182" vertical-scroll-proportion="0.0" vertical-offset="216" max-vertical-offset="819">
+            <state line="23" column="24" selection-start="763" selection-end="763" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="819">
               <folding />
             </state>
           </provider>
@@ -52,36 +47,43 @@
       <file leaf-file-name="__init__.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/__init__.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="0" selection-start="148" selection-end="148" vertical-scroll-proportion="0.0" vertical-offset="126" max-vertical-offset="252">
+            <state line="2" column="7" selection-start="78" selection-end="78" vertical-scroll-proportion="0.0" vertical-offset="42" max-vertical-offset="273">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main.py">
+      <file leaf-file-name="latticePoint.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/latticePoint.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="17" selection-start="278" selection-end="278" vertical-scroll-proportion="0.0" vertical-offset="294" max-vertical-offset="2289">
-              <folding>
-                <element signature="e#71#88#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="utils.py" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/utils.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1638">
+            <state line="8" column="36" selection-start="292" selection-end="292" vertical-scroll-proportion="0.0" vertical-offset="168" max-vertical-offset="504">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="fcc_test.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fcc_test.py">
+      <file leaf-file-name="intermolecularpotential.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/intermolecularpotential.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="33" selection-start="161" selection-end="161" vertical-scroll-proportion="0.0" vertical-offset="126" max-vertical-offset="357">
+            <state line="60" column="5" selection-start="2246" selection-end="2246" vertical-scroll-proportion="0.0" vertical-offset="762" max-vertical-offset="1365">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="crystal.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/crystal.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="7" selection-start="92" selection-end="92" vertical-scroll-proportion="0.0" vertical-offset="126" max-vertical-offset="693">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="site.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/site.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="4" selection-start="220" selection-end="372" vertical-scroll-proportion="0.0" vertical-offset="231" max-vertical-offset="441">
               <folding />
             </state>
           </provider>
@@ -90,7 +92,36 @@
       <file leaf-file-name="fcc.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/fcc.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="97" column="39" selection-start="2735" selection-end="2735" vertical-scroll-proportion="0.0" vertical-offset="2037" max-vertical-offset="2688">
+            <state line="188" column="16" selection-start="6242" selection-end="6242" vertical-scroll-proportion="0.0" vertical-offset="3618" max-vertical-offset="4473">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fcc_test.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/fcc_test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="21" column="7" selection-start="649" selection-end="649" vertical-scroll-proportion="0.73134327" vertical-offset="0" max-vertical-offset="861">
+              <folding>
+                <element signature="e#71#110#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main_old.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main_old.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="1" selection-start="261" selection-end="277" vertical-scroll-proportion="0.0" vertical-offset="210" max-vertical-offset="1827">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="utils.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/utils.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="77" column="44" selection-start="2231" selection-end="2231" vertical-scroll-proportion="0.0" vertical-offset="636" max-vertical-offset="1764">
               <folding />
             </state>
           </provider>
@@ -112,6 +143,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitLogSettings">
+    <option name="myStructureFilterPaths" />
     <option name="myDateState">
       <MyDateState />
     </option>
@@ -119,10 +151,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/class.cube.py" />
-        <option value="$PROJECT_DIR$/lib/class_cube.py" />
-        <option value="$PROJECT_DIR$/lib/site.py" />
-        <option value="$PROJECT_DIR$/lib/errors.py" />
         <option value="$PROJECT_DIR$/lib/aux.py" />
         <option value="$PROJECT_DIR$/Nabplot.py" />
         <option value="$PROJECT_DIR$/aux.py" />
@@ -130,11 +158,15 @@
         <option value="$PROJECT_DIR$/visualization.py" />
         <option value="$PROJECT_DIR$/lib/cube.py" />
         <option value="$PROJECT_DIR$/main_old.py" />
+        <option value="$PROJECT_DIR$/main.py" />
+        <option value="$PROJECT_DIR$/lib/latticePoint.py" />
         <option value="$PROJECT_DIR$/lib/__init__.py" />
         <option value="$PROJECT_DIR$/fcc_aux.py" />
+        <option value="$PROJECT_DIR$/lib/crystal.py" />
         <option value="$PROJECT_DIR$/lib/fcc.py" />
+        <option value="$PROJECT_DIR$/utils.py" />
+        <option value="$PROJECT_DIR$/lib/intermolecularpotential.py" />
         <option value="$PROJECT_DIR$/fcc_test.py" />
-        <option value="$PROJECT_DIR$/main.py" />
       </list>
     </option>
   </component>
@@ -221,8 +253,8 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="full.screen.before.presentation.mode" value="false" />
     <property name="recentsLimit" value="5" />
-    <property name="options.lastSelected" value="http.proxy" />
-    <property name="last_opened_file_path" value="/usr/local/bin/python2.7" />
+    <property name="options.lastSelected" value="com.jetbrains.python.configuration.PythonSdkConfigurable" />
+    <property name="last_opened_file_path" value="C:/Python27/python.exe" />
     <property name="FullScreen" value="false" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
@@ -483,37 +515,82 @@
       <created>1396691473086</created>
       <updated>1396691473086</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Initial work">
+      <created>1396854471098</created>
+      <updated>1396854471098</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="TodoView" selected-index="0">
+    <todo-panel id="selected-file">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+    <todo-panel id="default-changelist">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2607313" sideWeight="0.4996277" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290938" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23847377" sideWeight="0.4996277" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290938" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24982357" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14296351" sideWeight="0.6709062" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39795917" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16753536" sideWeight="0.7615262" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3974563" sideWeight="0.4996277" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29204893" sideWeight="0.5003723" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23024523" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2607313" sideWeight="0.5003723" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22893482" sideWeight="0.4996277" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290938" sideWeight="0.4996277" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290938" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290938" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290938" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23847377" sideWeight="0.4996277" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3974563" sideWeight="0.4996277" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2607313" sideWeight="0.5003723" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290938" sideWeight="0.4996277" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290938" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290938" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24982357" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16753536" sideWeight="0.7615262" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22893482" sideWeight="0.4996277" order="2" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_NEW_TODO" value="false" />
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
@@ -521,108 +598,114 @@
     <option name="LAST_COMMIT_MESSAGE" value="Initial work" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lib/fcc.py">
+    <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="97" column="39" selection-start="2735" selection-end="2735" vertical-scroll-proportion="0.0" vertical-offset="2037" max-vertical-offset="2688">
+        <state line="14" column="17" selection-start="278" selection-end="278" vertical-scroll-proportion="0.0" vertical-offset="294" max-vertical-offset="2289">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="9" selection-start="112" selection-end="112" vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="180">
-          <folding>
-            <element signature="e#71#88#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/cube.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="21" selection-start="253" selection-end="253" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="285" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Nabplot.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="24" selection-start="278" selection-end="278" vertical-scroll-proportion="0.44700462" vertical-offset="1" max-vertical-offset="435" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/visualization.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="19" selection-start="383" selection-end="383" vertical-scroll-proportion="0.54611653" vertical-offset="0" max-vertical-offset="412" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/animation.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="0" selection-start="273" selection-end="273" vertical-scroll-proportion="0.42626727" vertical-offset="40" max-vertical-offset="690" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main_old.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="1" selection-start="261" selection-end="277" vertical-scroll-proportion="0.0" vertical-offset="1" max-vertical-offset="1395" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/site.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="33" selection-start="273" selection-end="273" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/cube.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="117" column="29" selection-start="3578" selection-end="3578" vertical-scroll-proportion="0.3970588" vertical-offset="1575" max-vertical-offset="4350" />
+        <state line="76" column="17" selection-start="2145" selection-end="2150" vertical-scroll-proportion="-61.384617" vertical-offset="0" max-vertical-offset="6153" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/errors.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="171" selection-end="171" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fcc_aux.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="93" selection-start="1182" selection-end="1182" vertical-scroll-proportion="0.0" vertical-offset="77" max-vertical-offset="585">
+        <state line="6" column="35" selection-start="138" selection-end="138" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="148" selection-end="148" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="252">
+        <state line="2" column="7" selection-start="78" selection-end="78" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="273">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fcc_test.py">
+    <entry file="file://C:/Python27/Lib/site-packages/matplotlib/transforms.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="33" selection-start="161" selection-end="161" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
+        <state line="34" column="0" selection-start="1310" selection-end="1310" vertical-scroll-proportion="0.19338843" vertical-offset="597" max-vertical-offset="55818" />
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/site-packages/matplotlib/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="124" column="0" selection-start="3830" selection-end="3830" vertical-scroll-proportion="0.23986487" vertical-offset="2462" max-vertical-offset="27321" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="538" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/site.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="4" selection-start="220" selection-end="372" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="441">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/latticePoint.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="36" selection-start="292" selection-end="292" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="504">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/crystal.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="7" selection-start="92" selection-end="92" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="693">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fcc_aux.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="24" selection-start="763" selection-end="763" vertical-scroll-proportion="0.0" vertical-offset="40" max-vertical-offset="819">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/fcc.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="97" column="39" selection-start="2735" selection-end="2735" vertical-scroll-proportion="0.0" vertical-offset="988" max-vertical-offset="1875">
+        <state line="188" column="16" selection-start="6242" selection-end="6242" vertical-scroll-proportion="0.0" vertical-offset="3618" max-vertical-offset="4473">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.py">
+    <entry file="file://$PROJECT_DIR$/lib/intermolecularpotential.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="17" selection-start="278" selection-end="278" vertical-scroll-proportion="0.0" vertical-offset="294" max-vertical-offset="2289">
-          <folding>
-            <element signature="e#71#88#0" expanded="true" />
-          </folding>
+        <state line="60" column="5" selection-start="2246" selection-end="2246" vertical-scroll-proportion="0.0" vertical-offset="762" max-vertical-offset="1365">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/utils.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1638">
+        <state line="77" column="44" selection-start="2231" selection-end="2231" vertical-scroll-proportion="0.0" vertical-offset="888" max-vertical-offset="1764">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main_old.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="1" selection-start="261" selection-end="277" vertical-scroll-proportion="0.0" vertical-offset="210" max-vertical-offset="1827">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fcc_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="7" selection-start="649" selection-end="649" vertical-scroll-proportion="0.73134327" vertical-offset="0" max-vertical-offset="861">
+          <folding>
+            <element signature="e#71#110#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

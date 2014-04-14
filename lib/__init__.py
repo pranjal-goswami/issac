@@ -4,3 +4,5 @@ from cube import *
 from site import *
 from errors import *
 from fcc import *
+from crystal import *
+from latticePoint import *
